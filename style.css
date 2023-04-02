@@ -1,0 +1,124 @@
+* {
+    box-sizing : border-box;
+}
+
+corps {
+    couleur de fond : blanc ;
+}
+
+h1 {
+   marge-bas :  15 px ;
+text-align : center;
+couleur :  # 100403 ;
+taille de police :  50 px ;
+}
+
+rubrique {
+    position : relative ;
+    rembourrage :  15 px ;
+    largeur :  90 % ;
+}
+
+p {
+    position : relative ;
+    clair : droit;
+}
+
+div {
+    position : relative ;
+    couleur de fond : gris ;
+    bordure :  3,5 px noir uni ;
+    largeur :  100 % ;
+    marge-gauche : auto;
+    marge-droite : auto;
+    marge inférieure : auto;
+}
+
+. a1 {
+    float : droite;
+    largeur :  100 px ;
+    rembourrage :  5 px ;
+    marge :  -3 px  -3 px  0 px ;
+    bordure :  3,5 px noir uni ;
+    text-align : center;
+    taille de police :  125 % ;
+    font-weight : gras;
+    couleur de fond :  # FFB6C1 ;
+
+}
+
+. a2 {
+    float : droite;
+    couleur : blanc;
+    largeur :  100 px ;
+    rembourrage :  5 px ;
+    marge :  -3 px  -3 px  0 px ;
+    bordure :  3,5 px noir uni ;
+    text-align : center;
+    taille de police :  125 % ;
+    font-weight : gras;
+    couleur de fond :  # FF0000 ;
+
+}
+
+. a3 {
+    couleur : noir;
+    float : droite;
+    largeur :  100 px ;
+    rembourrage :  5 px ;
+     marge :  -3 px  -3 px  0 px ;
+    bordure :  3,5 px noir uni ;
+    text-align : center;
+    taille de police :  125 % ;
+    font-weight : gras;
+    couleur de fond :  rgb ( 223 ,  212 ,  121 );
+
+}
+
+. c {
+    rembourrage :  5 px ;
+    bordure : aucune ;
+    couleur de fond : gris ;
+    famille de polices : Helvetica ;
+    couleur : noir;
+    marge :  3 px ;
+    hauteur :  150 px ;
+    débordement : auto ;
+}
+
+. ligne {
+    largeur :  90 % ;
+}
+
+/*version de bureau*/
+@media ( min-width :  992 px ) {
+    . colonne-lg-4 {
+        flotteur : gauche ;
+        largeur :  33,33 % ;
+    }
+}
+
+/*version tablette*/
+@media ( min-width :  768 px ) et ( max-width :  991 px ) {
+    . colonne-md-6 {
+        flotteur : gauche ;
+        largeur :  50 % ;
+        marge-gauche : auto;
+        marge-droite : auto;
+    }
+
+    . colonne-md-12 {
+        flotteur : gauche ;
+        largeur :  100 % ;
+        marge-gauche : auto;
+        marge-droite : auto;
+    }
+}
+
+/*version mobile*/
+@media ( max-width :  767 px ) {
+    . colonne-sm-12 {
+        flotteur : gauche ;
+        largeur :  100 % ;
+    }
+}
